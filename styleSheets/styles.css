@@ -1,0 +1,417 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#mainContainer {
+    background: linear-gradient(105deg, #0d0d0d 50%, #1a1a1a 50%);
+}
+
+#headerImgArea {
+    flex: 1;
+}
+
+
+#coverPage {
+    display: flex;
+}
+
+hr {
+    background-color: #B5D2A7;
+}
+
+#pageTitle {
+    font-family: 'Major Mono Display', Arial, Helvetica, monospace;
+    /*font-family: 'Unica One', cursive;*/
+}
+
+h2, h3, h5 {
+    font-family: 'Major Mono Display', Arial, Helvetica, monospace;
+    color: #B5D2A7;
+}
+
+#aboutArea {
+    flex: 1;
+    margin: 15% 7% 15% 5%;
+    color: #DAD2E8;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+#computerPic {
+    width: 100%;
+    display: none !important;
+}
+
+
+
+#myBtn {
+    font-family: 'Major Mono Display', Arial, Helvetica, monospace;
+    background-color:#0d0d0d;
+    border: 2px solid #B5D2A7; /* Green */
+    color: #B5D2A7;
+    transition: 1s;
+}
+
+.sampleButton {
+    font-family: 'Major Mono Display', monospace;
+    background-color:#0d0d0d;
+    border: 2px solid #B5D2A7; /* Green */
+    color: #B5D2A7;
+    transition: 1s;
+}
+
+.sampleButton:hover {
+    background-color: #0d0d0d; /* Green */
+    border: 2px solid #B5D2A7; /* Green */
+    color: #1a1a1a;
+}
+#myBtn:hover {
+    background-color: #B5D2A7; /* Green */
+    color: #0d0d0d;
+}
+
+
+/*CONTAINER 2*/
+#aboutSection{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1a1a1a;
+    color: #DAD2E8;
+}
+
+#aboutSectionTextBox {
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    padding-top: 5%;
+}
+
+#samplesSection{
+    width: 80%;
+    margin: 10%;
+    background-color: #0d0d0d;
+    color: #DAD2E8;
+}
+
+#samplesSectionTextBox {
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.subSectionContainer {
+    display: flex;
+}
+
+
+#aboutMePicArea {
+    flex: 1;
+    margin: 6% 0 5% 5%;
+}
+
+#skillsTextArea {
+    flex: 2;
+    margin: 5%;
+}
+
+#aboutMePic {
+    width: 100%;
+    /*border: 5px solid #DAD2E8;*/
+}
+
+
+#logoArea {
+    display: flex;
+}
+
+.logoLinks {
+    flex: 1;
+    width: 33%;
+}
+#logoTextArea {
+    display: flex;
+}
+
+.logoTextLinks {
+    flex: 1;
+    width: 33%;
+    text-align: center;
+    color: #DAD2E8;
+}
+
+.logoTextA .logoTextAHeading {
+    color: #DAD2E8;
+}
+
+.logoTextAText {
+    color: #DAD2E8;
+}
+
+.logoTextA:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo {
+    width: 60%;
+    margin: 20%;
+}
+
+li a {
+    color: #DAD2E8;
+    font-family: 'Major Mono Display', Arial, Helvetica, monospace;
+}
+
+li a:hover {
+    color: 	#f1eef6;
+}
+
+nav
+{
+    background-color: #1a1a1a;
+}
+
+
+.navbar-brand {
+    margin-left: 5%;
+    color: #B5D2A7;
+    font-family: 'Major Mono Display', Arial, Helvetica, monospace;
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: 	#f1eef6;
+}
+
+#hamMenu {
+    color: 	#f1eef6;
+}
+
+#menu {
+    width: 100%;
+}
+
+
+footer {
+    background-color: #0d0d0d;
+    padding: 1%;
+    text-align: center;
+    color: #666666;
+}
+
+#footercontent {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footercontent p {
+    padding-top: 2%;
+    flex: 1;
+}
+#footercontent .logo {
+    width: 5%;
+    margin: 0 5% 0 5%;
+}
+
+
+@media only screen and (max-width: 714px) {
+    #samplesSection {
+       flex-direction: column;
+        display: flex;
+    }
+    #logoTextArea {
+       flex: 1;
+       flex-direction: column;
+       text-align: center;
+    }
+    .logoTextLinks {
+        width: 100%;
+        text-align: center;
+        margin: 3% 0 3% 0;
+    }
+
+
+    .navbar-nav {
+        margin-left: 5%;
+    }
+
+    #pageTitle {
+        margin-bottom: 5%;
+    }
+
+
+    #logoLinks {
+        font-size: 1em;
+    }
+
+    #aboutArea {
+        width: 90%;
+        margin: 5%;
+    }
+
+    body {
+        font-size: 11pt;
+    }
+
+    #myBtn {
+        font-size: 11pt;
+    }
+
+    #computerPic {
+        display: block !important;
+        width: 80%;
+        margin: 10%;
+    }
+}
+@media only screen and (min-width: 1035px) {
+    #cover {
+        height: 100vh;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    #pageTitle {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation:
+                typing .5s steps(200, end);
+    }
+
+    #pageTitle {
+        /*font-family: 'Unica One', cursive;*/
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 1034px) {
+
+    .navbar-nav {
+        margin-left: 5%;
+    }
+
+    #mainContainer {
+        background: linear-gradient(105deg, #0d0d0d 50%, #0d0d0d 50%);
+    }
+
+
+    section{
+        flex-flow: column wrap;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #headerImgArea {
+        flex: 1;
+    }
+
+    #computerPic {
+        display: block !important;
+        width: 70%;
+        margin: 15%;
+    }
+
+
+    #aboutArea {
+        margin: 10%;
+        width: 80%;
+        text-align: center;
+    }
+
+    #myBtn {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .sectionTitle {
+        text-align: center;
+        margin: 10%;
+    }
+
+    #pageTitle {
+        font-size: 43px;
+        margin-bottom: 5%;
+    }
+
+
+    #aboutSection{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color: #1a1a1a;
+        color: #DAD2E8;
+        padding: 0;
+    }
+
+    #aboutSectionTextBox {
+        width: 80%;
+        margin: 10%;
+        padding-top: 5%;
+    }
+
+    #aboutMePicArea {
+        display: none;
+    }
+
+    #skillsTextArea {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #samplesSection{
+        width: 100%;
+        margin: 0%;
+        padding-bottom: 10%;
+    }
+
+    #samplesSectionTextBox {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 5%;
+    }
+
+    .logo {
+        width: 50%;
+        margin: 25%;
+    }
+
+    footer {
+        background-color: #1a1a1a;
+    }
+
+    #footercontent p {
+        padding-top: 2%;
+        flex: 1;
+        font-size: 8px;
+    }
+    #footercontent .logo {
+        width: 15%;
+        margin: 0 5% 0 5%;
+    }
+
+
+
+}
+
+
